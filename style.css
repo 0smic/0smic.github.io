@@ -1,5 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+
+main {
+    font-family: 'JetBrains Mono', monospace;
+    max-width: 38rem;
+    padding: 2rem;
+}
 
 body {
-    background-color: azure;
-    color: #aaaaaa;
+    background-color: black;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+
+}
+.center {
+    align-items: center;
+    max-width: 70rem;
+    padding: 7rem;
+    padding-top: 1rem;
+}
+
+#mainhead {
+    font-size: 40px;
+    padding-left: 100px;
+}
+code {
+    color: white;
+}
+
+a, a:active, a:visited {
+    color: #1dff0d;
 }
