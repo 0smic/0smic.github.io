@@ -20,14 +20,39 @@ body {
     padding-top: 1rem;
 }
 
-#mainhead {
-    font-size: 40px;
-    padding-left: 100px;
-}
+
 code {
     color: white;
 }
 
 a, a:active, a:visited {
     color: #1dff0d;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    main {
+        font-size: 1rem;
+        padding: 1rem; 
+    }
+
+    .center {
+        max-width: 100%;
+        padding: 2rem; 
+        padding-top: 1rem;
+    }
+
+    #mainhead {
+        font-size: 2.5rem; 
+        padding-left: 1rem;
+    }
+
+    
+    code {
+        font-size: 1rem; 
+    }
+
+    a {
+        font-size: 1rem; 
+    }
 }
